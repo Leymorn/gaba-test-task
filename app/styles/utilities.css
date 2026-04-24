@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.surface-border {
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.surface-interactive {
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.surface-static {
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.surface-border-elevated {
+  border: 1px solid var(--border);
+  background: var(--surface-elevated);
+}
+
+.surface-elevated-interactive {
+  border: 1px solid var(--border);
+  background: var(--surface-elevated);
+}
+
+.surface-interactive:hover,
+.surface-elevated-interactive:hover {
+  border-color: var(--border-hover);
+}
+
+.surface-ghost {
+  color: var(--foreground);
+}
+
+.surface-ghost:hover {
+  color: var(--accent);
+}
+
+.surface-cancel {
+  color: var(--danger);
+}
+
+.surface-cancel:hover {
+  color: var(--danger-hover);
+}

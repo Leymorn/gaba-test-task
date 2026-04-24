@@ -1,0 +1,27 @@
+:root {
+  --background: #0b1020;
+  --foreground: #f5f7fb;
+  --surface: #121a2b;
+  --surface-elevated: #172033;
+  --border: rgba(148, 163, 184, 0.18);
+  --muted: #94a3b8;
+  --overlay: rgba(5, 10, 20, 0.58);
+  --border-hover: rgba(47, 75, 138, 0.817);
+  --accent: #d8e3f4;
+  --danger: #f87171;
+  --danger-hover: #fca5a5;
+}
+
+html[data-theme="light"] {
+  --background: #f4f7fb;
+  --foreground: #111827;
+  --surface: #ffffff;
+  --surface-elevated: #eef2f7;
+  --border: rgba(15, 23, 42, 0.1);
+  --muted: #64748b;
+  --overlay: rgba(15, 23, 42, 0.22);
+  --border-hover: rgba(47, 75, 138, 0.817);
+  --accent: #1e293b;
+  --danger: #dc2626;
+  --danger-hover: #ef4444;
+}
